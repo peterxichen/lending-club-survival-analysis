@@ -20,7 +20,7 @@ to correlated externalities. For example, it is unclear whether groups that prep
 credit inquiries than the average borrower, because although having a large number of inquires is a sign of
 someone with low credit/who was rejected multiple times, borrowers who shop around (and thus are likely
 to prepay if they find a better deal) will also tend to have a higher number of inquiries.
-We study these factors, first using a simple binary classication framework using the logistic regression
+We study these factors, first using a simple binary classification framework using the logistic regression
 Model, and then using a hazard rate approach via the cox-proportional hazards model.
 
 Authors
