@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 from sklearn import preprocessing
 import pickle
 
-df= pd.read_csv('arct-2017-1-last-updated-2019-03-31-as-of-2019-04-27.csv')
+# dv01 data
+df= pd.read_csv('input.csv')
 # target = ['Charged Off', 'Sold - Debt Sale', 'Defaulted' ] # default
 target = ['Paid Off'] #prepay
 

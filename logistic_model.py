@@ -6,15 +6,14 @@ from sklearn.metrics import accuracy_score
 from sklearn.svm import LinearSVC
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from sklearn.linear_model import LogisticRegression, LinearRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.decomposition import SparsePCA, PCA
 from sklearn.model_selection import KFold
 
-
-DATA_PATH = "arct-2017-1-last-updated-2019-03-31-as-of-2019-04-27.csv"
+# dv01 data
+DATA_PATH = "input.csv"
 df = pd.read_csv(DATA_PATH)
 print(df.columns.values)
 

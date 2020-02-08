@@ -33,7 +33,7 @@ print(list(lending_club_df.columns.values))
 lending_club_df['issue_d'] = pd.to_datetime(lending_club_df['issue_d'], format='%b-%y')
 
 # dv01 data
-df = pd.read_csv("arct-2017-1-last-updated-2019-03-31-as-of-2019-04-27.csv")
+df = pd.read_csv("input.csv")
 print(list(df.columns.values))
 
 # additional fields scraped from lending club
